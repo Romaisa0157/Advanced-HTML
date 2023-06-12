@@ -1,0 +1,169 @@
+#container
+{
+    position: absolute;
+    width: 438px;
+    height: 644px;
+    left: 652px;
+    top: 131px;
+    background: linear-gradient(341.65deg, rgba(151, 70, 255, 0.322) -8.4%, rgba(151, 70, 255, 0.7) 99.06%);
+    box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
+    border-radius: 52px;
+    z-index: 1;
+}
+.BG{
+
+    position: relative;
+    width: 1510px;
+    height: auto;
+
+    z-index: 0;
+    background-position: center;
+}
+
+.container h1{
+position: absolute;
+width: 405px;
+height: 68px;
+left: 705px;
+top: 140px;
+
+font-family: 'Raleway';
+font-style: normal;
+font-weight: 650;
+font-size: 49px;
+line-height: 56px;
+letter-spacing: 0.08em;
+
+color: white;
+z-index: 2;
+}
+
+.container p{
+    position: absolute;
+    width: 345px;
+    height: 36px;
+    left: 699px;
+    top: 255px;
+
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    letter-spacing: 0.08em;
+
+color: #FFFFFF;
+z-index: 2;
+}
+
+.name{
+    position: absolute;
+    width: 370px;
+    height: 51px;
+    left: 686px;
+    top: 317px;
+
+    background: #F5F5FF;
+    z-index: 2;
+}
+.email{
+        position: absolute;
+        width: 370px;
+        height: 51px;
+        left: 686px;
+        top: 397px;
+
+        background: #F5F5FF;
+        z-index: 2;
+}
+.message{
+    position: absolute;
+    width: 370px;
+    height: 224px;
+    left: 686px;
+    top: 482px;
+
+    background: #F5F5FF;
+    z-index: 2;
+}
+::placeholder{
+    color: #6100FF;
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 12px;
+    line-height: 18px;
+    padding-left: 10px;
+    letter-spacing: 0.08em;
+    z-index: 2;
+}
+
+.submit{
+    position: absolute;
+    width: 124px;
+    height: 30px;
+    left: 686px;
+    top: 723px;
+
+    background: #623CA1;
+    z-index: 2;
+}
+
+
+.submit:hover{
+    position: absolute;
+    width: 124px;
+    height: 30px;
+    left: 686px;
+    top: 723px;
+
+    background: #CC00FF;
+    z-index: 2;
+}
+
+.socials{
+    position: absolute;
+width: 50px;
+height: 171px;
+left: 1090px;
+top: 557px;
+
+background: rgba(124, 63, 134, 0.91);
+border-radius: 0px 10px 50px 0px;
+z-index: 2;
+}
+
+.fb{
+    position: absolute;
+    left: 37%;
+    right: 6.1%;
+    top: 15%;
+    bottom: 24.44%;
+
+}
+
+.tw
+{
+    position: absolute;
+    left: 37%;
+    right: 6.18%;
+    top: 40%;
+    bottom: 29.73%;
+
+}
+
+
+
+
+
+.in
+{
+    position: absolute;
+    left: 37%;
+    right: 6.18%;
+    top: 65%;
+    bottom: 19.15%;
+} 
+
+
+
