@@ -1,5 +1,15 @@
-#container
-{
+
+.BG{
+
+    position: relative;
+    width: 1510px;
+    height: auto;
+    background-size: contain;
+    z-index: 0;
+    background-position: center;
+}
+
+#container {
     position: absolute;
     width: 438px;
     height: 644px;
@@ -11,96 +21,71 @@
     z-index: 1;
     transition-duration: 600ms;
     transition-timing-function: ease;
-}
-.BG{
-
-    position: relative;
-    width: 1510px;
-    height: auto;
-
-    z-index: 0;
-    background-position: center;
-}
-
-#container
-{
-    transition-property: all;
-}
-#container:is(:hover, :focus) {
+  }
+  
+  #container:hover {
     transform: scale(1.1);
   }
-
-.container h1{
-position: absolute;
-width: 405px;
-height: 68px;
-left: 705px;
-top: 140px;
-
-font-family: 'Raleway';
-font-style: normal;
-font-weight: 650;
-font-size: 49px;
-line-height: 56px;
-letter-spacing: 0.08em;
-
-color: white;
-z-index: 2;
-}
-
-.container p{
+  
+  .container h1 {
+    position: absolute;
+    width: 405px;
+    height: 68px;
+    top: -85px;
+    left: 15px;
+    font-family: 'Raleway';
+    font-style: normal;
+    font-weight: 650;
+    font-size: 49px;
+    line-height: 56px;
+    letter-spacing: 0.08em;
+    color: white;
+    z-index: 2;
+  }
+  
+  .container p {
     position: absolute;
     width: 345px;
     height: 36px;
-    left: 699px;
-    top: 255px;
-
+    top: 20px;
+    left: 15px;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
     font-size: 12px;
     line-height: 18px;
     letter-spacing: 0.08em;
-
-color: #FFFFFF;
-z-index: 2;
-}
-
-.form{
-    position: inherit;
-
-}
-.name{
+    color: #FFFFFF;
+    z-index: 2;
+  }
+  
+  .form {
     position: absolute;
+    left: 30px;
+    top: 100px;
+  }
+  
+  .name,
+  .email
+  {
+    position: relative;
+    top: 100px;
     width: 370px;
     height: 51px;
-    left: 686px;
-    top: 317px;
-
+    margin-bottom: 20px;
     background: #F5F5FF;
     z-index: 2;
-}
-.email{
-        position: absolute;
-        width: 370px;
-        height: 51px;
-        left: 686px;
-        top: 397px;
-
-        background: #F5F5FF;
-        z-index: 2;
-}
-.message{
-    position: absolute;
+  }
+  
+  .message {
+    position: relative;
+    top: 100px;
     width: 370px;
-    height: 224px;
-    left: 686px;
-    top: 482px;
-
+    height: 130px;
     background: #F5F5FF;
     z-index: 2;
-}
-::placeholder{
+  }
+  ::placeholder {
     color: #6100FF;
     font-family: 'Poppins';
     font-style: normal;
@@ -110,74 +95,51 @@ z-index: 2;
     padding-left: 10px;
     letter-spacing: 0.08em;
     z-index: 2;
-}
-
-.submit{
+  }
+  
+  .submit {
     position: absolute;
     width: 124px;
     height: 30px;
-    left: 686px;
-    top: 723px;
-
+    left: 15px;
+    top: 450px;
     background: #623CA1;
     z-index: 2;
-}
-
-
-.submit:hover{
-    position: absolute;
-    width: 124px;
-    height: 30px;
-    left: 686px;
-    top: 723px;
-
+  }
+  
+  .submit:hover {
     background: #CC00FF;
+  }
+  
+  .socials {
+    position: absolute;
+    width: 50px;
+    height: 171px;
+    right: -80px;
+    top: 245px;
+    background: rgba(124, 63, 134, 0.91);
+    border-radius: 0px 10px 50px 0px;
     z-index: 2;
-}
-
-.socials{
-    position: absolute;
-width: 50px;
-height: 171px;
-left: 1090px;
-top: 557px;
-
-background: rgba(124, 63, 134, 0.91);
-border-radius: 0px 10px 50px 0px;
-z-index: 2;
-}
-
-.fb{
+  }
+  
+  .fb {
     position: absolute;
     left: 37%;
-    right: 6.1%;
     top: 15%;
-    bottom: 24.44%;
-
-}
-
-.tw
-{
+  }
+  
+  .tw {
     position: absolute;
     left: 37%;
-    right: 6.18%;
     top: 40%;
-    bottom: 29.73%;
-
-}
-
-
-
-
-
-.in
-{
+  }
+  
+  .in {
     position: absolute;
     left: 37%;
-    right: 6.18%;
     top: 65%;
-    bottom: 19.15%;
-} 
+  }
+  
 
 #text
 {
@@ -196,6 +158,8 @@ z-index: 2;
     z-index: 2;
     color: #FFFFFF;
 }
+
+
 
 .msg
 {
@@ -243,6 +207,51 @@ height: 50.79px;
 left: 308.18px;
 top: 583.17px;}
 
+.hero{
+    position: absolute;
+    left: -100px;
+    top: -10px;
+    
+}
+#text p{
+    font-family: 'Poppins';
+    font-style: normal;
+    font-weight: 400;
+    font-size: 20px;
+    letter-spacing: 0.08em;
+    color: #FFFFFF;
+    white-space: nowrap;
 
+}
+
+#msg{
+    position: absolute;
+    top: 135px;
+    left: 70px;
+    text-align: center;
+    z-index: 2;
+}
+#ph{
+    position: absolute;
+    top: 220px;
+    left: 70px;
+    text-align: center;
+    z-index: 2;
+}
+#clk{
+    position: absolute;
+    top: 310px;
+    left: 70px;
+    text-align: center;
+    z-index: 2;
+}
+
+#bld{
+    position: absolute;
+    top: 410px;
+    left: 70px;
+    text-align: center;
+    z-index: 2;
+}
 
 
