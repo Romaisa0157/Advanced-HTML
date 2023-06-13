@@ -1,13 +1,14 @@
-
-.BG{
-
-    position: relative;
-    width: 1510px;
-    height: auto;
-    background-size: contain;
-    z-index: 0;
-    background-position: center;
-}
+ 
+.BG
+{
+    position: absolute;
+    width: 1440px;
+    height: 828px;
+    left: 0px;
+    top: 0px;
+    background-image: contain;
+    z-index: 1;
+} 
 
 #container {
     position: absolute;
@@ -15,8 +16,7 @@
     height: 644px;
     left: 652px;
     top: 131px;
-    background: linear-gradient(341.65deg, rgba(151, 70, 255, 0.322) -8.4%, rgba(151, 70, 255, 0.7) 99.06%);
-    box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
+    background: conic-gradient(from 165.41deg at 70.59% 34.03%, #A48C22 -15.77deg, #000000 85.37deg, #A48C22 344.23deg, #000000 445.37deg);    box-shadow: 0px 20px 30px rgba(102, 106, 245, 0.13);
     border-radius: 52px;
     z-index: 1;
     transition-duration: 600ms;
@@ -86,7 +86,7 @@
     z-index: 2;
   }
   ::placeholder {
-    color: #6100FF;
+    color: black;
     font-family: 'Poppins';
     font-style: normal;
     font-weight: 400;
@@ -101,14 +101,15 @@
     position: absolute;
     width: 124px;
     height: 30px;
-    left: 15px;
+    left:0%;
     top: 450px;
-    background: #623CA1;
+    background: white;
     z-index: 2;
+
   }
   
   .submit:hover {
-    background: #CC00FF;
+    background: yellow;
   }
   
   .socials {
@@ -117,7 +118,7 @@
     height: 171px;
     right: -80px;
     top: 245px;
-    background: rgba(124, 63, 134, 0.91);
+    background: black;
     border-radius: 0px 10px 50px 0px;
     z-index: 2;
   }
@@ -158,7 +159,9 @@
     z-index: 2;
     color: #FFFFFF;
 }
-
+.msg, .ph,.bld,.clk{
+    z-index: 2;
+}
 
 
 .msg
