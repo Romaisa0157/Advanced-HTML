@@ -36,6 +36,9 @@ def submit():
         return 'Thank you for your submission! We will be in touch.'
     except Exception as e:
         return f'An error occurred while sending the email: {str(e)}'
+        
+        return render_template('index.html')
+
 
 if __name__ == '__main__':
     app.run()
